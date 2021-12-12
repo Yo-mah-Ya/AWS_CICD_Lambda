@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/npm-packages-offline-cache": true,
+    "packages/**/build": true,
+    "packages/**/node_modules": true
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.lintTask.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "npm.packageManager": "yarn",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.enabled": true,
+  "cSpell.words": ["boto", "buildspec"]
+}
